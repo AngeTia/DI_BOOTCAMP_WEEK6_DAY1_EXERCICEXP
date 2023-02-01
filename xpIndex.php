@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-    <html lang="en">
+
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,7 @@
         <?php echo "Hello World" ?>
 
         <h2>Exercise 2 : Print “Hello PHP” Using Echo </h2>
-        <?php 
+        <?php
         # Print variable information
         $hello_content = "Hello PHP";
         echo  $hello_content;
@@ -28,12 +29,13 @@
         ?>
 
         <h2>Exercise 4 : Reverse The String</h2>
-        <?php 
+        <?php
         # Function to reverse a string using strrev()
-        function Reverse($str){
+        function reverseString($str)
+        {
             return strrev($str);
         }
-        echo Reverse($content_morning)
+        echo reverseString($content_morning)
         ?>
     </body>
 </html>
